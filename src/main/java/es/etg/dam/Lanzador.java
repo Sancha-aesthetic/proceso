@@ -4,10 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class App {
+public class Lanzador {
 
 public static final String MSG_ERROR = "Se ha producido un error al ejecutar el comando";
-    public static final String[] COMAND = {"java", "-cp", "target/classes", "es.etg.dam.Proceso", "8", "10" };
+    public static final String[] COMAND = {"java", "-cp", "target/classes", "es.etg.dam.Suma", "8", "10" };
 
     public static void main(String[] args) {
 		try {
